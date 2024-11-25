@@ -1,0 +1,11 @@
+@TestContainerApi.WebApi_HostAddress = http://localhost:5242
+
+GET {{TestContainerApi.WebApi_HostAddress}}/api/users
+Accept: application/json
+
+###
+
+GET {{TestContainerApi.WebApi_HostAddress}}/api/users/1
+Accept: application/json
+
+###
